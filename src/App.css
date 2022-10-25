@@ -1,0 +1,110 @@
+nav {
+    position: absolute;
+    width: 550px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    background: #F55A5A;
+}
+.nav--logo {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 213px;
+    top: 16px;
+}
+.nav--txt {
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: 244px;
+    top: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+.place {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    width: 470px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+.place--image {
+    width: 100%;
+    border-radius: 5px;
+}
+.place--point {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 7px;
+    height: 9.55px;
+}
+.place--location {
+    padding-left: 5px;
+    padding-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 10.24px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+.place--maps {
+    font-family: 'Inter';
+    padding-left: 10px;
+    font-style: normal;
+    font-size: 10.24px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+.place--title {
+    font-family: 'Inter';
+    padding-left: 10px;
+    font-style: normal;
+    font-size: 25px;
+    color: #2B283A;
+    margin-top: 5px;
+}
+.place--date {
+    font-family: 'Inter';
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    color: #2B283A;
+    margin-top: 5px;
+}
+.place--description {
+    font-family: 'Inter';
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #2B283A;
+    margin-top: 5px;
+}
+.places--list {
+    position: relative;
+    top: 85px;
+    left: 45px;
+}
+.place--info {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex: 0 0 auto;
+}
+.place--container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width: 350px;
+}
